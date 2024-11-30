@@ -1,0 +1,234 @@
+onEvent("open", "click", function() {
+  setScreen("tasks");
+});
+onEvent("mondayTask", "click", function( ) {
+  setScreen("mondayTasks");
+});
+onEvent("tuesdayTask", "click", function( ) {
+  setScreen("tuesdayTasks");
+});
+onEvent("wednesdayTask", "click", function( ) {
+  setScreen("wednesdayTasks");
+});
+onEvent("thursdayTask", "click", function( ) {
+  setScreen("thursdayTasks");
+});
+onEvent("fridayTask", "click", function( ) {
+  setScreen("fridayTasks");
+});
+onEvent("saturdayTask", "click", function( ) {
+  setScreen("saturdayTasks");
+});
+onEvent("sundayTask", "click", function( ) {
+  setScreen("sundayTasks");
+});
+//Back
+onEvent("days", "click", function( ) {
+  setScreen("tasks");
+});
+onEvent("days1", "click", function( ) {
+  setScreen("tasks");
+});
+onEvent("days2", "click", function( ) {
+  setScreen("tasks");
+});
+onEvent("days3", "click", function( ) {
+  setScreen("tasks");
+});
+onEvent("days4", "click", function( ) {
+  setScreen("tasks");
+});
+onEvent("days5", "click", function( ) {
+  setScreen("tasks");
+});
+onEvent("days6", "click", function( ) {
+  setScreen("tasks");
+});
+//Clear Function
+function clearMonday() {
+  setText("text_input4", "");
+  setText("text_input5", "");
+  setText("text_input6", "");
+  setText("text_input7", "");
+  setText("text_input8", "");
+  setText("text_input9", "");
+  setText("text_input10", "");
+  setText("text_input11", "");
+  setChecked("checkbox2", false);
+  setChecked("checkbox3", false);
+  setChecked("checkbox4", false);
+  setChecked("checkbox5", false);
+  setChecked("checkbox6", false);
+  setChecked("checkbox7", false);
+  setChecked("checkbox8", false);
+  setChecked("checkbox9", false);
+}
+function clearTuesday() {
+  setText("text_input31", "");
+  setText("text_input32", "");
+  setText("text_input33", "");
+  setText("text_input34", "");
+  setText("text_input35", "");
+  setText("text_input36", "");
+  setText("text_input37", "");
+  setText("text_input38", "");
+  setChecked("checkbox29", false);
+  setChecked("checkbox30", false);
+  setChecked("checkbox31", false);
+  setChecked("checkbox32", false);
+  setChecked("checkbox33", false);
+  setChecked("checkbox34", false);
+  setChecked("checkbox35", false);
+}
+function clearWednesday() {
+  setText("text_input39", "");
+  setText("text_input40", "");
+  setText("text_input41", "");
+  setText("text_input42", "");
+  setText("text_input43", "");
+  setText("text_input44", "");
+  setText("text_input45", "");
+  setText("46", "");
+  setChecked("checkbox37", false);
+  setChecked("checkbox38", false);
+  setChecked("checkbox39", false);
+  setChecked("checkbox40", false);
+  setChecked("checkbox41", false);
+  setChecked("checkbox42", false);
+  setChecked("checkbox43", false);
+  setChecked("checkbox44", false);
+}
+function clearThursday() {
+  setText("text_input47", "");
+  setText("text_input48", "");
+  setText("text_input49", "");
+  setText("text_input50", "");
+  setText("text_input51", "");
+  setText("text_input52", "");
+  setText("text_input53", "");
+  setText("text_input54", "");
+  setChecked("checkbox45", false);
+  setChecked("checkbox46", false);
+  setChecked("checkbox47", false);
+  setChecked("checkbox48", false);
+  setChecked("checkbox49", false);
+  setChecked("checkbox50", false);
+  setChecked("checkbox51", false);
+  setChecked("checkbox52", false);
+}
+function clearFriday() {
+  setText("text_input55", "");
+  setText("text_input56", "");
+  setText("text_input57", "");
+  setText("text_input58", "");
+  setText("text_input59", "");
+  setText("text_input60", "");
+  setText("text_input61", "");
+  setText("text_input62", "");
+  setChecked("checkbox53", false);
+  setChecked("checkbox54", false);
+  setChecked("checkbox55", false);
+  setChecked("checkbox56", false);
+  setChecked("checkbox57", false);
+  setChecked("checkbox58", false);
+  setChecked("checkbox59", false);
+  setChecked("checkbox60", false);
+}
+function clearSaturday() {
+  setText("text_input63", "");
+  setText("text_input64", "");
+  setText("text_input65", "");
+  setText("text_input66", "");
+  setText("text_input67", "");
+  setText("text_input68", "");
+  setText("text_input69", "");
+  setText("text_input70", "");
+  setChecked("checkbox63", false);
+  setChecked("checkbox64", false);
+  setChecked("checkbox65", false);
+  setChecked("checkbox66", false);
+  setChecked("checkbox67", false);
+  setChecked("checkbox68", false);
+  setChecked("checkbox69", false);
+  setChecked("checkbox70", false);
+}
+function clearSunday() {
+  setText("text_input71", "");
+  setText("text_input72", "");
+  setText("text_input73", "");
+  setText("text_input74", "");
+  setText("text_input75", "");
+  setText("text_input76", "");
+  setText("text_input77", "");
+  setText("text_input78", "");
+  setChecked("checkbox69", false);
+  setChecked("checkbox70", false);
+  setChecked("checkbox71", false);
+  setChecked("checkbox72", false);
+  setChecked("checkbox73", false);
+  setChecked("checkbox74", false);
+  setChecked("checkbox75", false);
+  setChecked("checkbox76", false);
+}
+onEvent("clear1", "click", function( ) {
+  clearFriday();
+});
+onEvent("clear2", "click", function( ) {
+  clearMonday();
+});
+onEvent("clear3", "click", function( ) {
+  clearSaturday();
+});
+onEvent("clear4", "click", function( ) {
+  clearSunday();
+});
+onEvent("clear5", "click", function( ) {
+  clearThursday();
+});
+onEvent("clear6", "click", function( ) {
+  clearTuesday();
+});
+onEvent("clear7", "click", function( ) {
+  clearWednesday();
+});
+onEvent("modeKid", "click", function( ) {
+  setScreen("KidMode");
+});
+function clearKidkids() {
+  setText("text_input1", "");
+  setText("text_input2", "");
+  setText("text_input3", "");
+  setText("text_input12", "");
+  setText("text_input13", "");
+  setText("text_input14", "");
+  setText("text_input15", "");
+  setText("text_input16", "");
+  setChecked("checkbox1", false);
+  setChecked("checkbox10", false);
+  setChecked("checkbox11", false);
+  setChecked("checkbox12", false);
+  setChecked("checkbox13", false);
+  setChecked("checkbox14", false);
+  setChecked("checkbox15", false);
+  setChecked("checkbox16", false);
+}
+onEvent("clearKid", "click", function( ) {
+  clearKidkids();
+});
+onEvent("finished", "click", function( ) {
+  playSound("sound://category_instrumental/marimba_upscale_1.mp3", false);
+  setScreen("goodJob");
+  clearKidkids();
+});
+onEvent("doMore", "click", function( ) {
+  setScreen("KidMode");
+});
+onEvent("image4", "click", function( ) {
+  setScreen("mainScreen");
+});
+onEvent("image6", "click", function( ) {
+  setScreen("mainScreen");
+});
+onEvent("image2", "click", function( ) {
+  setScreen("mainScreen");
+});
